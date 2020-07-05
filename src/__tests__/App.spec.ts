@@ -101,7 +101,6 @@ describe('App', () => {
         quantity: 50,
       }),
     );
-
     const response = await request(app).post('/products').send({
       name: 'Produto 01',
       price: 500,
